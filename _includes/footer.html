@@ -1,0 +1,39 @@
+<footer id="footer" class="dark">
+    <div id="copyrights">
+        <div class="container">
+
+            <div class="row justify-content-between col-mb-30">
+                <div class="col-12 col-lg-auto  text-lg-left order-last order-lg-first">
+                    <img id="footer-logo" src="{{site.baseurl}}/images/logo/logo-solicode.svg" alt="Image" class=""><br>
+                    Copyrights &copy; 2021 All Rights Reserved by SoliCode.
+                </div>
+
+
+                <div class="col-12 col-lg-auto text-center text-lg-right">
+                    <div class="copyrights-menu copyright-links">
+                        {% for menu_item in site.data.menu %}
+                        {% if menu_item.lien == nil  %}
+                        <a href="{{site.baseurl}}/#{{menu_item.reference}}" data-href="#{{menu_item.reference}}">
+                            {{menu_item.label}}
+                        </a>
+                        {% else%}
+                        <a href="{{menu_item.lien}}">
+                            {{menu_item.label}}
+                        </a>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                    {% for reseau in  site.data.reseau-sociaux %}
+                    <a href="{{reseau.lien}}"
+                        class="social-icon inline-block si-small si-borderless mb-0 si-{{reseau.reference}}">
+                        <i class="{{reseau.icone}}"></i>
+                        <i class="{{reseau.icone}}"></i>
+                    </a>
+                    {% endfor %}
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>

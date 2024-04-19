@@ -1,0 +1,22 @@
+# Le contenue de la page index 
+titre: A PROPOS DE SOLIHACKATHON 22’ 
+colonnes:
+  - titre: Projet collaboratif
+    icone: icon-hands-helping
+    description: >  
+      Cette expérience favorisera le sens d’entraide et d’échange 
+      au sein des équipes et sera une occasion de rencontre entre 
+      les différents établissements et professionnels de la région.
+  - titre: Aventure compétitive
+    icone: icon-brain
+    description: >  
+      Grâce à ce mini-hackathon, les participants vont faire preuve 
+      de créativité, d’innovation et de partage dans un climat convivial. 
+      Cet évènement sera une occasion pour évaluer le niveau 
+      d'implication et tester l'esprit compétitif de nos jeunes. 
+  - titre: Expérience marquante
+    icone: icon-laptop-code
+    description: >  
+      SOLIHACKATHON permettra aux participants de se mettre dans 
+      la peau d’un développeur tout au long de la compétition et 
+      de mettre en pratique ainsi leurs savoirs-faire et leurs savoirs-être.
