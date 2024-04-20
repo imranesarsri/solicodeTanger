@@ -1,20 +1,17 @@
 ---
 layout: default
+title: 'Tailwind CSS!'
 ---
 
-{% include slider.html slides = site.data.slides %}
 
+<div class="">
 
+  {% include Components/navBar.html %}
 
-<section id="content">
-<div class="content-wrap py-0">
- 
-  {% include section-apropos.html data = site.data.section-apropos %}
-  {% include section-c-est-quoi-solicode.html %}
-  {% include section-formations.html %}
-  {% include section-activites.html %}
-  {% include section-chiffres.html data = site.data.section-chiffres %}
-  {% include section-contact.html %}
+  <div class="m-auto">
+    <h1 class="text-5xl  ">I'm using Tailwind CSS!</h1>
+  </div>
+
+  {% include Components/Footer.html %}
+
 </div>
-
-</section>
