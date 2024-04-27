@@ -1,8 +1,20 @@
 # Jekyll with Tailwind CSS
 
-Setup Jekyll with Tailwind CSS with PostCSS and PurgeCSS (no webpack involved)
+## Project installation steps
 
-The step by step explanation is available in [my blog](https://ocordova.me/blog/jekyll-with-tailwind).
+### Install Jekyll
+- [jekyllrb](https://jekyllrb.com/)
+
+### Install Tailwind Css
+- (tailwindcss)[https://tailwindcss.com/docs/installation]
+
+## Libraries
+
+### Install Flowbite :
+- [flowbite](https://flowbite.com/docs/getting-started/introduction/#require-via-npm)
+
+### Install tailwind css :
+- [tailwindcss-animated#readme](https://github.com/new-data-services/tailwindcss-animated#readme\)
 
 ## Quick setup
 
@@ -17,3 +29,15 @@ npm run dev # Compile jekyll site and run PostCSS
 ```bash
 npm run build # Complie jekyll site and run PostCSS as production
 ```
+
+- [generete svg](https://www.softr.io/tools/svg-wave-generator)
+- [animation jquery](https://codepen.io/jencrosby/pen/NWxZOyX)
+- [jqueryscript](https://www.jqueryscript.net/blog/best-particle-systems.html)
+https://ej2.syncfusion.com/javascript/documentation/carousel/animations-and-transitions?cs-save-lang=1&cs-lang=html
+
+
+
+## Repo
+- [Repo github](https://github.com/SolicodeTanger/Solicode.co)
+## Solicode link
+- [wib site solicode](https://solicodetanger.github.io/Solicode.co/)
